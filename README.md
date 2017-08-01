@@ -1,2 +1,3 @@
-# Arduino_Candle_Light
+# Arduino Candle Light
 Candle light firmware for Arduino Nano with Dimmer function
+
