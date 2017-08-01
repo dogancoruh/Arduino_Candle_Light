@@ -21,7 +21,7 @@ void setup() {
 void loop() {
   value = analogRead(LDR_PIN);
 
-  //writeValueToSerial(value);
+  //writeValueToSerial(value); // for debugging :)
 
   if (value < 150) {
     analogWrite(LED1_PIN, random(120)+135);
